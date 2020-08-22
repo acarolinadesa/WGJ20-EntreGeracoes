@@ -11,6 +11,7 @@ define c = Character ("Camila")
 
 
 # Feições dos personagens
+# TODO: acrescentar diretório das imagens
 # image seis neutra =
 # image seis olhos fechados =
 # image seis irritada =
@@ -22,7 +23,7 @@ define c = Character ("Camila")
 # image camilla triste =
 
 
-#audio
+# Audio
 
 
 # The game starts here.
