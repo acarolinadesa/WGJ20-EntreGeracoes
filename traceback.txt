@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 10, in script
+    define c = Characther ("Camila")
+  File "game/script.rpy", line 10, in <module>
+    define c = Characther ("Camila")
+NameError: name 'Characther' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 10, in script
+    define c = Characther ("Camila")
+  File "/Volumes/renpy-7.3.5-sdk/renpy-7.3.5-sdk/renpy/ast.py", line 2108, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Volumes/renpy-7.3.5-sdk/renpy-7.3.5-sdk/renpy/python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 10, in <module>
+    define c = Characther ("Camila")
+NameError: name 'Characther' is not defined
+
+Darwin-19.3.0-x86_64-i386-64bit
+Ren'Py 7.3.5.606
+WGJ20project 1.0
+Sat Aug 22 18:30:27 2020

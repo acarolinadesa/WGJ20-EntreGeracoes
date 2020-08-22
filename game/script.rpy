@@ -1,38 +1,44 @@
-#Personagens
+# The script of the game goes in this file.
+
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+# Personagens
 
 define e = Character( )
 define a = Character("Aline")
 define b = Character ("Sarah")
-define c = Characther ("Camila")
+define c = Character ("Camila")
 
 
-#feições dos personagens
-image seis neutra =
-image seis olhos fechados =
-image seis irritada =
-image seis triste =
-image seis surpresa =
+# Feições dos personagens
+# image seis neutra =
+# image seis olhos fechados =
+# image seis irritada =
+# image seis triste =
+# image seis surpresa =
 
-image camilla neutra=
-image camilla feliz =
-image camilla triste =
+# image camilla neutra=
+# image camilla feliz =
+# image camilla triste =
 
 
 #audio
 
 
-
-
-#começo do jogo
+# The game starts here.
+# Começo do jogo
 
 label start:
 
+    # Show a background. This uses a placeholder by default, but you can
+    # add a file (named either "bg room.png" or "bg room.jpg") to the
+    # images directory to show it.
 
     scene quarto 1
 
     show seis at left
 
-    #musica ambiente
+    # Musica ambiente
 
     "A histórica começa com uma jovem chamada Sarah. Seu apelido era Seis, e ela estava entediada, sentada em sua cadeira olhando para a tela do computador."
 
@@ -216,7 +222,7 @@ label start:
     "Ela percebeu que vestia roupas diferentes das demais pessoas, que eram de cores voltadas para o marrom como ternos."
 
     scene casa da camilla
-    show camila at
+    show camila at left
 
     c"Venha logo, não quero que as pessoas fiquem nos encarando."
 
@@ -340,21 +346,6 @@ label start:
 
     show Sarah surpresa
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # This ends the game.
 
     return
