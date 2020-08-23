@@ -37,11 +37,11 @@ label start:
 
     scene quarto 1
 
-    show seis at left
+    show sarah at left
 
-    # Musica ambiente
+    #musica ambiente
 
-    "A histórica começa com uma jovem chamada Sarah. Seu apelido era Seis, e ela estava entediada, sentada em sua cadeira olhando para a tela do computador."
+    "A história começa com uma jovem chamada Sarah. Seu apelido era Seis, e ela estava entediada, sentada em sua cadeira olhando para a tela do computador."
 
     b "Cara. Que tédio... {w} O que eu posso fazer agora?"
     b "Não é como se algo novo acontece todo dia... {w} Ah..."
@@ -103,9 +103,11 @@ label start:
 
 #aqui ela acabou de viajar ao passado, para a época da sua avó
 
-    show cenário antigo 1
-    show seis olhos fechados at left
-    show camila sombra at right
+    scene avenida
+    with dissolve
+
+    show sarah #olhos fechados at left
+    show camila #sombra at right
 
     #som ruido ambiente, de várias pessoas, mas como se fosse em segundo plano
 
@@ -149,7 +151,7 @@ label start:
     "???""Poxa... Moça, eu acho que você está perdida..."
     "???""Meu nome é Camilla. Posso te ajudar?"
 
-    show camilla at right
+    show camila at right
 
     c"Você estava caida no chão..."
     c"Então eu vim ver o que estava acontecendo."
@@ -200,6 +202,10 @@ label start:
     #som de passos de corrida
 
     scene rua comum
+    with dissolve
+
+    show camila at right
+    show sarah at center
 
     "Depois de alguns minutos andando apressadamente, elas viraram um beco, estreito e após atravesa-lo, seguiram para a direita em uma rua sinuosa."
     "Continuaram o percurso, Sarah olhando ao seu arredor e tentando identificar algo familiar."
@@ -222,9 +228,6 @@ label start:
     "Com o coração a mil, ela fez o máximo para não chamar atenção nas ruas."
     "Ela percebeu que vestia roupas diferentes das demais pessoas, que eram de cores voltadas para o marrom como ternos."
 
-    scene casa da camilla
-    show camila at left
-
     c"Venha logo, não quero que as pessoas fiquem nos encarando."
 
     "Camilla destrancou seu portão cinzento, em frente a uma casa pequena de cor amarela. Havia um jardim modesto em frente, com flores bem cuidadas e o piso tinha um padrão marrom escuro."
@@ -235,6 +238,13 @@ label start:
     c"Entre minha jovem."
 
     b"Certo..."
+
+    # TODO: alterar tamanho da casa camila2
+    scene casa camila2
+    with dissolve
+
+    show sarah at left
+    show camila at right
 
     "Sarah estava com um pressentimento incomum. Aquilo tudo era real... Porém parecia um sonho."
     "Reconheceu algumas casas, porém esta não."
@@ -257,6 +267,9 @@ label start:
 
     c"Eu vou trazer o café, está quase pronto."
 
+    hide camila
+    with dissolve
+
     "Sarah ouviu, e voltou a si. A mulher mais velha estava na cozinha, e já sentia o cheiro de café sendo feito."
     "E bom, ela não gostava de café."
 
@@ -275,7 +288,9 @@ label start:
 
     c"O que está errado?"
 
-    show sarah surpresa
+    show camila at right
+
+#    show sarah surpresa
 
     b"A-AH! Que susto!"
 
@@ -283,24 +298,24 @@ label start:
 
     "Colocando a xícara na mesa, a mulher se sentou e deixou um longo suspiro ecoar."
 
-    show camila triste
-    show sarah neutra
+#    show camila triste
+#    show sarah neutra
 
     "Ela parecia cansada."
 
     "Em silêncio, a convidade se sento também, olhando para o chão."
 
-    show camilla neutra
+    #show camilla neutra
 
     c"... Sabe, você me parece bem familiar. Já nos conhecemos de algum lugar?"
 
-    show sarah nervosa
+    #show sarah nervosa
 
     b"... Eu acho que não."
 
     c"Ah! Já sei, você deve ser uma das alunas da dança do salão!!"
 
-    show camila feliz
+    #show camila feliz
 
     c"Sabia que conhecia você."
 
@@ -308,7 +323,7 @@ label start:
 
     c"Eu e a minha espo- amiga moramos aqui."
 
-    show camilla nervosa
+#    show camilla nervosa
 
     c"M-minha filha adora brincade de boneca... Mas ao brincar no quintal, suja algumas na lama. Acho que algumas crianças brincam disso também."
 
@@ -316,8 +331,8 @@ label start:
 
     b"... Eu acho que sim."
 
-    show sarah preocupada
-    show camilla feliz
+    #show sarah preocupada
+    #show camilla feliz
 
     c"Que bom! Se quiser pode fazer uma ligação para seus pais... Temos um telefone."
 
@@ -325,7 +340,7 @@ label start:
 
     "Nisso, ouviu-se um barulho vindo da escada. Alguém estava descendo a escadaria."
 
-    show camila neutra
+#    show camila neutra
 
     "???""Camila, você fez café?"
 
@@ -335,18 +350,164 @@ label start:
 
     "A mulher que desceu as escadas tinha uma pele morena, um cabelo curto e carregava uma criança em seu colo."
 
+    hide camila
+    show aline at left
+    show criança at left
+
     "Assim que viu Sarah, ela parou e olhou para Camila e depois para Sarah."
 
     "Se seguiu um silêncio desconfortável, em que Sarah olhava com surpresa para a mulher a sua frente."
 
-    "???""Ah... Temos visitas. Olá, acredito que a Camila não tenha mencionado... Sou amiga dela, Diana."
+    "???""Ah... Temos visitas. Olá, acredito que a Camila não tenha mencionado... Sou amiga dela, Aline."
 
     b"..."
 
     b"..."
 
-    show Sarah surpresa
+#    show Sarah surpresa
 
-    # This ends the game.
+    b"...Ah. Entendi. Meu nome é Sarah..."
+
+    b"Desculpe incomodar, eu pretendia ir embora."
+
+    c"Mas tão cedo? Você se lembra onde mora?"
+
+    b"E-eu acho que sim."
+
+    c"Aline, acho que ela se perdeu... Trouxe ela aqui, ela precisava de ajuda."
+
+    a"Tudo bem. Sarah, você disse que se lembra onde mora? Posso levaar você ate lá, o que acha?"
+
+    b"...Eu não me lembro o endereço... O nome digo. Mas posso ir andando."
+
+    "Nesta hora, a criança levantou a cabeça e Aline a colocou no chão. Ela tinha pele morena, mas cabelos cacheados longos, diferente da mãe."
+    "Ela estava sonolenta, passando as costas da mão no olho várias vezes."
+    "Segurou a barra do seu vestido azul, apertando antes de dizer."
+
+    "???""Mãe... Tem pão de queijo?"
+
+    "Ela olhou para a Camila, que a segurou no colo. Novamente o silêncio se instarou."
+
+    #show todo mundo com cara de nervouiseerrr
+
+    b"Eu vou indo agora..."
+
+    a"Eu acompanho você até o portão."
+
+    b"Tudo bem. Obrigada Dona Camila, por ter me ajudado... E boa tarde..."
+
+    "Sarah se levantou e rumou para a porta, que Aline já havia aberto."
+
+    "Estava ficando tarde, a cada segundo que passava Sarah ficava cada vez mais nervosa."
+
+    scene rua comum #(queria que ficasse num tom noturno)
+    show sarah at right
+    show aline at left
+
+    "Aline percebeu que esqueceu as chaves do portão, e voltou dentro de casa para pega-las."
+
+    a"Um minuto."
+
+    hide aline
+
+    #show sarah triste
+
+    b"...Eu entendi. Ou eu acho que entendi..."
+    b"Mas... Como?"
+    b"Como...?"
+
+    "Segurando as lágrimas, mordeu o lábio inferior da boca, olhando para baixo."
+
+    b"Está... Tudo errado..."
+
+    show aline at left
+
+    a"Aqui! Achei a chave, vou abrir pra você."
+    a"Tem algo de errado? Você parece triste."
+
+    b"... Você não precisa me acompanhar. Posso ir sozinha."
+
+    a"Eu falei que poderia te acompanhar, não falei?"
+    a"...Tudo bem você não gostar de mim por eu ser negra, mas..."
+
+    b"N-não é isso!!"
+
+    "A garota virou o rosto, brava."
+    "Cerrou as mãos em punho e olhou para baixo."
+
+    b"Eu posso me virar sozinha..."
+
+    a"Eu acho que juntas, as mulheres são mais fortes..."
+    a"Eu posso te acompanhar, sem problemas. Eu corro bem rápido."
+
+    b"Não."
+
+    "Aline segurou o portão, já aberto. Ela encarava com curiosidade Sarah. Ela puxou o portão, como um sinal para Sararh ir."
+
+    b"Obrigada. Eu vou achar meu caminho, Dona Alice..."
+
+    "Nisso, ela saiu. Com passos apressados, de distanciando rapidamente da casa amarela."
+
+    scene avenida #(queria que ficasse num tom noturno)
+    with dissolve
+
+    "Sarah estava magoada."
+    "Triste e com o coração apertando, segurando as lágrimas conforme andava pelas ruas."
+    "Quando se deu conta, estava novamente naquela praça, que levava a uma avenida. Os carros não eram muitos por entre as ruas, assim como as pessoas caminhando, saindo de seus expedientes."
+    "Respirou fundo, na tentativa de aliviar os pensamentos emaranhados, dentro de sua cabeça."
+
+    show sarah #triste at left
+
+    b"Isso... Não pode ser real. Não pode..."
+
+    b"Como é possível? Eu voltei para o passado..."
+
+    b"E ainda... Vi minhas avós! Quer dizer nem sabia que era dua avós..."
+
+    b"Ninguém nunca me contava nada... Justo porque elas são duas mulheres..."
+
+    b"Eu já não vou com a cara dos meus parentes... Bom, se eles esconderam isso de mim. Que trouxas."
+
+    "Ela se sentou num banco de madeira, proximo a uma árvore, não muito distante da pista de carros."
+
+    "Ficou de braços cruzados, pensando no que fazer a seguir."
+
+    "Ela conhecia algumas poucas histórias de viajem no tempo. Quando esse evento ocorria com o protagonista, ele não deveria alterar nada, pois implicaria na própria existencia."
+    "E se ela tivesse feito algo irreparável?"
+    "Não tinha o conhecimento que sua avó tinha uma parceira, pois a mesma havia falecido quando era uma criança."
+    "Começou a pensar no pior, nas possibilidades de que não poderia nem mesmo existir."
+    "E agora?"
+
+    b"..."
+    b"Nuna pensei em dizer isso... Mas..."
+
+    "???""Ei!"
+
+    #show policial mau ou a sombra dele
+
+    "Sarah se virou na direção da voz. Se levantou no memso instante, assustada."
+
+    b"Não creio! São os tiras!"
+
+    b"Ah cara... Agora não..."
+
+    "Policial""EI mocinha! Onde pensa que está?"
+
+    b"Ah não..."
+
+    "Sarah se lembrou que em suas aulas de história, essa época do pais, policiais prendiam muitas pessoas. Mesmo sem motivos."
+    "Por ser um pais patriarcal, mulheres andarem sozinhas na rua não era bem visto. Principalmente se havia preconceito contra pessoas negras..."
+
+    "Ela pensou em duas coisas: fugir na direção contrária ao policial ou então tentar ser razoável."
+    "A primeira pareceu a mais sensata."
+
+    "Se virou e correu."
+
+    "Correu pois sabia que sua vida dependia disso, e que no momento, nada mais importava."
+
+    b"Se eu ainda estou aqui, é porque eu não alterei- ao menos não muito- a linha do tempo!"
+    b"Eu... Vou sair daqui!"
+
+    "Policial""Peste! VOLTE AQUI!"
 
     return
