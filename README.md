@@ -1,4 +1,4 @@
-=====
+
 WGJ20Project - Projeto da Women Game Jam 2020
 =====
 Olá, aqui temos um curto guia para te orientar sobre essa aplicação.
@@ -30,6 +30,7 @@ Assim, o projeto automaticamente irá aparecer no Launcher.
 Comandos do Git
 -----------------
 Para clonar o repositório:
-.. code-block:: sh
 
+```
   git clone
+ ```
