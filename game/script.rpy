@@ -31,19 +31,21 @@ define c = Character ("Camila")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene quarto 1
 
     show sarah at left
 
     #musica ambiente
 
-    "A história começa com uma jovem chamada Sarah. Seu apelido era Seis, e ela estava entediada, sentada em sua cadeira olhando para a tela do computador."
+    "A história começa com uma jovem chamada Sarah."
+    "Ela é filha única, morando com sua mãe em um bairro da cidade de São Paulo."
+    "Era de noite, quando estava em seu quarto."
 
     b "Cara. Que tédio... {w} O que eu posso fazer agora?"
+
+    "Entediada, ela se mexeu em sua cadeira de plástico, esticando as mãos para cima."
+    "A tela do computador tinha um brilho intenso e mostrava alguns sites abertos."
+
     b "Não é como se algo novo acontece todo dia... {w} Ah..."
     b "Ei, o que é isso? {w} Um meme?"
 
@@ -106,7 +108,7 @@ label start:
     scene avenida
     with dissolve
 
-    show sarah #olhos fechados at left
+    show  sarah #olhos fechados at left
     show camila #sombra at right
 
     #som ruido ambiente, de várias pessoas, mas como se fosse em segundo plano
@@ -147,6 +149,8 @@ label start:
 
     b"Estou irritada na verdade."
     b"Onde estou?"
+
+    show sarah at left
 
     "???""Poxa... Moça, eu acho que você está perdida..."
     "???""Meu nome é Camilla. Posso te ajudar?"
@@ -448,7 +452,8 @@ label start:
 
     "Nisso, ela saiu. Com passos apressados, de distanciando rapidamente da casa amarela."
 
-    scene avenida #(queria que ficasse num tom noturno)
+    # TODO: corrigir tamanho da imagem
+    scene avenida noite #(queria que ficasse num tom noturno)
     with dissolve
 
     "Sarah estava magoada."
@@ -509,5 +514,192 @@ label start:
     b"Eu... Vou sair daqui!"
 
     "Policial""Peste! VOLTE AQUI!"
+
+    b"Corre, corre Sarah!"
+
+    "Ela virou a esquina, pedindo lisença para as pessoas a sa frente, conforme corria."
+
+    "Os cabelos chamavam atenção, mas a garota corria tão rápido que quando as pessoas percebiam, ela já estava longe."
+
+    "O Policial pareceu desistir em algum ponto, pois após em algum determinado tempo, ela parou de ouvir a voz dele."
+
+    "Foi parando de correr, até virar uma caminhada. Parou e encostou a mão ao lado de uma árvore, cansada e ofegante."
+
+    b"... Eu... Eu consegui...?"
+
+    "Exausta, ela puxava o ar para seus pulmões com força e cada inspiração doia."
+
+    b"...Será... Que eu consegui..."
+
+    "Sarah fechou os olhos por um instante."
+
+    "Foi quando sentiu alguém colocando a mão em seu ombro."
+
+    "???""Te achei, garota."
+    "???""Você vem comigo."
+
+    "Sarah gritou, tentando se desvincular da mão enluvada do homem. Era o mesmo policial de antes, com o rosto vermelho e carranca."
+
+    b"Me solte!"
+
+    "Puxou seu pulso com força, mas ele era mais forte. A figura dele a assutou, pois sabia o que policiais como ele poderia fazer."
+
+    "???""Garota tola! Vou te levar comigo!"
+
+    b"ME SOLTA SEU NOJENTO"
+
+    "Nesse momento, uma figura apareceu atrás dele e o atingiu com força."
+
+    #som algo batendo
+
+    "Ele foi ao chão, caindo com um grande baque no asfalto."
+
+    "Sarah ficou zonza, não conseguindo distinguir muito a figura a sua frente."
+
+    a"Sarah! Falei que ia junto com você!"
+
+    a"Menina teimosa!"
+
+    "Era Aline, sua avó, que a salvou."
+
+    show aline at right
+
+    "Sarah ficou sem palavras ao perceber que era ela e começou a chorar."
+
+    a"E-ei, já passou. Mas temos que sair daqui, a vizinhança vai notar."
+
+    b"..."
+
+    b"O-obrigada..."
+
+    a"Não me agradeça. Juntas somos fortes. Vamos!"
+
+    b"P-pra onde?"
+
+    a"Minha casa. Você vem comigo, tudo bem?"
+
+    b"..."
+
+    b"O-obrigada..."
+
+
+    # TODO: corrigir tamanho da imagem
+    scene rua comum noite
+    with dissolve
+
+    "Elas seguiram num ritmo apressado até a casa de portão cinza."
+    "Aline tinha seu modesto macacão azul, e escondeu sua chave inglesa em seu bolso largo."
+    "O percurso foi silêncioso, sem tempo para conversas."
+
+    b"..."
+
+    b"Aline... Eu sei de você e a Camila."
+
+    a"..."
+
+    b"Eu não tenho nada contra, na verdade... Mas... Deve ser... Difícil..."
+
+    a"... É bem difícil."
+
+    b"Desculpe... Se pareci-"
+
+    a"Tudo bem. Você me parece uma boa pessoa... E meu sexto sentido nunca falhou."
+
+    "Sarah pensou no que poderia dizer para a sua avó, na qual não tinha muitas memórias."
+    "Não queria alterar o futuro... Ao menos não para algo ainda pior."
+
+    b"..."
+    b"...Qual o nome da sua filha?"
+
+    a"Amanada..."
+    a"Nossa pequena Amanda."
+
+    "Sarah sorriu. Era o nome da sua mãe."
+
+    "Nunca pensou em conhecer sua mãe, só que criança."
+
+    a"Você não se importaria em dormir no sofá?"
+
+    b"A."
+
+    b"Tudo bem... Eu não me importo."
+
+    a"Certo. Estamos quase lá."
+
+
+
+    scene casa camila noite
+    with dissolve
+
+    show sarah at left
+    show alice at right
+
+    a"Pronto. Deixei arrumado aqui para você."
+
+    b"... Desculpe incomodar."
+
+    a"Tudo bem. Amanhã cedo vamos procurar a sua casa e seus pais."
+
+    b"Tudo bem."
+
+    "Sarah de algum modo, começou a se sentir em casa."
+    "Sua casa do futuro ficava em São Paulo, mas longe do centro. Era diferente, tanto em estilo e estrutura."
+
+    "Sarah teve um dia e tanto, pensou."
+    "Sem dúvidas, a parte do policial... Foi a mais assustadora."
+
+    b"...Eu espero que essa epóca de ditadura... Acabe logo."
+
+    a"É. Eu também..."
+    a"Eu já vi muitos camaradas... Pegos."
+    a"Todo dia eu rezo, para que eu não seja... Mais uma vítima."
+
+    b"...Eu espero... Que você e sua familía sejam... Muito felizes."
+
+    a"Obrigada, Sarah."
+    a"Tudo vai se encaixar amanhã."
+
+    b"Certo. Boa noite."
+
+    "Sarah ouviu Aline sair e apagar as luzes."
+    "Ela se cobriu com o cobertor, que tinha um cheiro diferente. De criança com shampoo."
+
+    b"He. Deve ser da mãe."
+    b"Eu espero... Que eu consiga voltar para casa."
+    b"Eu quero... Voltar pro meu tempo..."
+
+    b"Eu não ia aguentar crescer aqui. Nesse período... Como tem gente que esqueceu disso?"
+
+    "Com muitas dúvidas em sua mente, não conseguiu dormir."
+    "Se virou no sofá, não achando uma posição certa."
+
+    b"E se... Eu olhasse as coisas da casa...?"
+    b"Esse telefone parece irado..."
+
+    "Não. Isso é falta de educação."
+
+    "Ouviu alguém se aproximar, e já era bem tarde da noite."
+    "Eram passos quase que silênciosos no chão de madeira."
+
+    "Sarah fingiu que dormia. Poderia ser..."
+
+    m"Oi."
+    m"Quer ser minha amiga?"
+
+    b"Ah!"
+
+    "Ela pulou do sofá, assustando também a criança."
+
+    m"Nossa tia, que susto."
+
+    b"Cara... O que eu falo pra ela?"
+
+    b"Ei... Você não quer ir dormir não?"
+    b"Acho que ta ficando meio tarde..."
+
+    m"Eu queria brincar. Brinca comigo?"
+
+    "A criança estendeu uma boneca de pano, um pouco suja e bem gasta."
+
 
     return
