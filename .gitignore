@@ -1,2 +1,9 @@
 .DS_Store
+
+# Pasta de processo salvo no jogo
 saves
+
+# Relatório de erros de execução
+tracebak.txt
+erros.txt
+log.txt
