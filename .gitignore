@@ -4,6 +4,6 @@
 saves
 
 # Relatório de erros de execução
-tracebak.txt
-erros.txt
+traceback.txt
+errors.txt
 log.txt
