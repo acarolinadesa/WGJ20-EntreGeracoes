@@ -13,15 +13,15 @@ define m = Character ("Mãe")
 
 # Feições dos personagens
 # TODO: acrescentar diretório das imagens
-#image seis neutra =
-#image seis olhos fechados =
-#image seis irritada =
-#image seis triste =
-#image seis surpresa =
+# image seis neutra =
+# image seis olhos fechados =
+# image seis irritada =
+# image seis triste =
+# image seis surpresa =
 
-#image camilla neutra=
-#image camilla feliz =
-#image camilla triste =
+# image camilla neutra=
+# image camilla feliz =
+# image camilla triste =
 
 
 # Audio
