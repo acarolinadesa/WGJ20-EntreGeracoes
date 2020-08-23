@@ -11,10 +11,10 @@ Nosso jogo usou a engine de romance visual Ren'Py que você pode baixar atrávez
 Executando o Projeto
 -----------------
 O Ren'Py funciona da seguinte forma: Inicialmente, ao criar um primeiro projeto, ele define a pasta no seu computador onde você deve colocar todos os projetos que serão lidos no Ren'Py. Então para que eles apareçam no launcher conforme a imagem abaixo, todos os projetos devem estar na mesma pasta determinada inicialmente.
+<img width="450" height="400" src="https://user-images.githubusercontent.com/44841405/90990605-2dc65e80-e579-11ea-80b7-ec30e937db40.png">
 
-
-
-
+Veja que todos os meus projetos que apareceram no launcher anteriormente estão na mesma pasta WGJ
+<img width="850" height="450" src="https://user-images.githubusercontent.com/44841405/90990661-83027000-e579-11ea-889b-d77b5fbcffbe.png">
 
 Minha dica para quem nunca criou um projeto com Ren'Py é:
 1. Crie um projeto teste com qualquer nome e determine uma pasta onde você vai guardar os seus projetos;
@@ -27,10 +27,32 @@ Para quem já usa o Ren'Py:
 Assim, o projeto automaticamente irá aparecer no Launcher.
 
 
+
 Comandos do Git
 -----------------
 Para clonar o repositório:
-
 ```
   git clone
  ```
+Para adicionar alterações, caso vocês tenham feito alguma alteração
+```
+  git add .
+ ```
+Para fazer um commit, deixando uma mensagem sobre a alteração que você fez
+ ```
+  git commit -m "aqui você vai dizer brevemente que alteração fez"
+ ```
+Para enviar suas alteraçãoes para o github
+```
+  git push
+```
+  ou para enviar para nossa branch de desenvolvimento
+```
+  git push origin develop
+```
+#### E o mais importante, atualizar o seu projeto! 
+##### ANTES DE PROGRAMAR EM UM PROJETO COMPARTILHADO, SEMPRE LEMPRE DO PULL PARA PEGAR AS ATUALIZAÇÕES
+ ```
+ git pull
+ ```
+ 
