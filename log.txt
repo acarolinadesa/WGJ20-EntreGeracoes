@@ -1,36 +1,35 @@
-Sun Aug 23 19:17:48 2020
+Sun Aug 23 19:23:42 2020
 Darwin-19.3.0-x86_64-i386-64bit
 Ren'Py 7.3.5.606
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.10s
 Early init took 0.01s
 Loader init took 0.01s
-Loading error handling took 0.09s
-Loading script took 0.32s
-Loading save slot metadata. took 0.02s
+Loading error handling took 0.25s
+Loading script took 0.54s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.37s
-Loading analysis data took 0.02s
+Running init code took 1.12s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to '/Users/acarolren/Library/RenPy/backups/WGJ20project':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.31s
+Creating interface object took 0.32s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.08s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.08s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.03s
@@ -189,25 +188,18 @@ Texture testing:
 - 2048px textures work.
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 3.53657698631s
+Total time until interface ready: 6.69896793365s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.017018 seconds.
-- Frame drawn at 0.034092 seconds.
-- Frame drawn at 0.051312 seconds.
-- Frame drawn at 0.067809 seconds.
-- 0.067809 seconds to render 5 frames.
-
-Full traceback:
-  File "game/script.rpy", line 686, in script
-    m"Oi."
-  File "/Volumes/renpy-7.3.5-sdk/renpy-7.3.5-sdk/renpy/ast.py", line 678, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Volumes/renpy-7.3.5-sdk/renpy-7.3.5-sdk/renpy/ast.py", line 576, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'm' is not defined.
-
-While running game code:
-  File "game/script.rpy", line 686, in script
-    m"Oi."
-Exception: Sayer 'm' is not defined.
+- Frame drawn at 0.017427 seconds.
+- Frame drawn at 0.026911 seconds.
+- Frame drawn at 0.037060 seconds.
+- Frame drawn at 0.047609 seconds.
+- 0.047609 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
