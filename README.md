@@ -56,3 +56,14 @@ Para enviar suas alteraçãoes para o github
  git pull
  ```
  
+ 
+ :information_source: Todos as imagens utilizadas nesse projeto são de uso gratuito.
+ 
+ 
+ 
+ :octocat: Desenvolvido por: 
+  [acarolren](https://www.github.com/acarolren) -
+  [lunafaur](https://www.github.com/lunafaur) -
+  [Mackyw](https://www.github.com/Mackyw) -
+  [WhiteVir](https://www.github.com/WhiteVir) 
+ 
