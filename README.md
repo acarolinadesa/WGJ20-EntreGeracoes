@@ -1,7 +1,16 @@
 
-WGJ20Project - Projeto da Women Game Jam 2020
+WGJ20 - Projeto criado na Women Game Jam 2020
 =====
-Olá, aqui temos um curto guia para te orientar sobre essa aplicação.
+
+Olá, aqui temos um curto guia para te orientar sobre esse projeto.
+
+Ele foi desenvolvido durante a edição do Women Game Jam, em 2020.
+
+Nosso jogo é um visual novel chamado <b>Entre Gerações - A História de Sara</b> e está disponível para download através do link: https://lunafaur.itch.io/entre-geracoes
+
+
+ :information_source: Todos as imagens utilizadas nesse projeto são de uso gratuito.
+
 
 Estrutura do Projeto
 -----------------
@@ -54,11 +63,7 @@ Para enviar suas alteraçãoes para o github
 ##### ANTES DE PROGRAMAR EM UM PROJETO COMPARTILHADO, SEMPRE LEMPRE DO PULL PARA PEGAR AS ATUALIZAÇÕES
  ```
  git pull
- ```
- 
- 
- :information_source: Todos as imagens utilizadas nesse projeto são de uso gratuito.
- 
+ ``` 
  
  
  :octocat: Desenvolvido por: 
