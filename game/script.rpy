@@ -244,7 +244,6 @@ label start:
 
     b"Certo..."
 
-    # TODO: alterar tamanho da casa camila2
     scene casa camila2
     with dissolve
 
@@ -453,7 +452,6 @@ label start:
 
     "Nisso, ela saiu. Com passos apressados, de distanciando rapidamente da casa amarela."
 
-    # TODO: corrigir tamanho da imagem
     scene avenida noite #(queria que ficasse num tom noturno)
     with dissolve
 
@@ -584,7 +582,6 @@ label start:
     b"O-obrigada..."
 
 
-    # TODO: corrigir tamanho da imagem
     scene rua comum noite
     with dissolve
 
