@@ -1,5 +1,5 @@
 
-WGJ20 - Projeto criado na Women Game Jam 2020
+WGJ20: Entre Gerações - A história de Sara
 =====
 
 Olá, aqui temos um curto guia para te orientar sobre esse projeto.
