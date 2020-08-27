@@ -699,5 +699,22 @@ label start:
 
     "A criança estendeu uma boneca de pano, um pouco suja e bem gasta."
 
+    menu:
+
+        m"Decida sua escolha: "
+
+        "Escolha 1":
+
+            jump situacao1
+
+        "Escolha 2":
+
+            jump situacao2
+
+label  situacao1:
+
+
+label  situacao2:
+
 
     return
