@@ -27,7 +27,7 @@ define audio.piano2 = "audio/dasgoat-piano.mp3"
 
 label start:
 
-    play music quarto
+    play music quarto fadeout 1
     scene quarto 1
 
     show sarah at left
@@ -91,8 +91,8 @@ label start:
     "Ela se levantou, e nisso sentiu um enjoou, e caiu."
 
     #som baque no chão
-
-    stop sound
+    # queue music "sunflower-slow-drag.ogg"
+    stop music fadeout 1
 
     "Com um baque, seu corpo foi ao chão e fechou os olhos."
 
@@ -208,7 +208,6 @@ label start:
 
     show camila at right
     show sarah at center
-
     "Depois de alguns minutos andando apressadamente, elas viraram um beco, estreito e após atravesa-lo, seguiram para a direita em uma rua sinuosa."
     "Continuaram o percurso, Sarah olhando ao seu arredor e tentando identificar algo familiar."
 
