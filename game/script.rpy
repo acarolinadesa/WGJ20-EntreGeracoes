@@ -896,8 +896,6 @@ label  situacao1:
 
     "Fim do jogo! Obrigada por ter jogado!"
 
-    return
-
 label  situacao2:
 
     show sarah at left
@@ -1007,5 +1005,4 @@ label  situacao2:
 
     "Fim do jogo! Obrigada por jogar!"
 
-
-    return
+return
