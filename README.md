@@ -1,12 +1,12 @@
 
-WGJ20: Entre Gerações - A história de Sara
+WGJ20: Entre Gerações - A história de Sarah
 =====
 
 Olá, aqui temos um curto guia para te orientar sobre esse projeto.
 
 Ele foi desenvolvido durante a edição do Women Game Jam, em 2020.
 
-Nosso jogo é um visual novel chamado <b>Entre Gerações - A História de Sara</b> e está disponível para download através do link: https://lunafaur.itch.io/entre-geracoes
+Nosso jogo é um visual novel chamado <b>Entre Gerações - A História de Sarah</b> e está disponível para download através do link: https://lunafaur.itch.io/entre-geracoes
 
 
  :information_source: Todos as imagens utilizadas nesse projeto são de uso gratuito.
