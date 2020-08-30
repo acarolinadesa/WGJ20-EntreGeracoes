@@ -27,7 +27,7 @@ define audio.piano2 = "audio/dasgoat-piano.mp3"
 
 label start:
 
-    play sound quarto
+    play music quarto
     scene quarto 1
 
     show sarah at left
@@ -60,7 +60,8 @@ label start:
     b"Ao menos não desperdiçar essa chance... Com uma máquina do tempo. Visitar minha avó quando era jovem. Ha..."
     b"Na real. Vou dormir."
 
-    "Sarah desligou o seu computador e fez seu ritual para enfim, dormir."
+    "Ela desligou o seu computador e fez seu ritual para enfim, dormir."
+
     b"Vou apagar a luz. E não vou correr. Não é como se eu tivesse medo do escuro... Ha."
 
     "Dito isso, ela se forçou a andar devagar na escuridão do quarto. Bateu o dedo no pé na quina da cama e resmungou alto."
